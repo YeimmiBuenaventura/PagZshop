@@ -1,2 +1,2 @@
 SCRUM: como project
-Despliegue: 
+Despliegue: https://yeimmibuenaventura.github.io/PagZshop/
