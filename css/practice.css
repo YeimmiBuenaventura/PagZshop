@@ -1,0 +1,77 @@
+*{
+    max-width: 1440px;
+    min-width: auto;
+}
+body{
+    background-image: url("../images/bg3.jpg");
+     /*Coloca el fondo fijo*/
+     background-attachment: fixed;
+}
+.wrap-body{
+    width: 75%; 
+    margin-left: 30%; 
+}
+
+/*Organiza header*/
+.main-header .row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*Cajas*/
+#container .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.col-2-5.box-item{
+    width: 40%;
+}
+.col-1-2.box-item{
+    width:50%
+}
+.col-3-5.box-item{
+    width: 60%;
+}
+.col-1-2{
+    display:flex; 
+}
+/*Sube img modelo*/
+.model{
+    margin-top: -100px;
+}
+/*Footer*/
+.ubi{
+  grid-column: 1 / 3;  
+}
+/*Distribución*/
+footer .row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+footer .col-1-3.col-footer-3 .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*--Blog--*/
+div.wrap-container div.box-image{
+  width: 540px;  
+}
+.sub-page div.wrap-body div.wrap-container div.flex-box div.col-1-2.f-right{
+  margin-block: -10px;
+}
+/*Contactos*/
+.con div.wrap-container div.contact-form label.row div.col-1-3 div.wrap-col{
+  padding: 20px;
+}
+div.row div.wrap-col{
+  width: 100%;
+  padding: 20px;
+  margin-top: -40px;
+}
+section.content-box div.row.wrap-box{
+ justify-content: center;
+}
